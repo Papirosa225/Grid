@@ -1,0 +1,29 @@
+.primary,
+.secondary {
+    font-family: Inter; 
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.primary {
+    color: var(--color-white);
+    background: var(--color-purple-dark);
+    border: none;
+    border-radius: 999px;
+}
+
+
+.secondary {
+    background-color: transparent;
+    border: 1px solid var(--color-gray-32);
+    border-radius: 16px;
+    color: var(--color-purple-dark);
+}
+
+.primary:hover,
+.primary:focus {
+    background-color: var(--color-purple-light);
+    transition: .3s background-color ease;
+}
